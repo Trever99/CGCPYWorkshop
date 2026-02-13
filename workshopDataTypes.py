@@ -20,6 +20,20 @@ import math
 # square_first = first * first
 # area = math.pi * r * r
 
-radii = input("Enter the radius: ")
-area = math.pi * float(radii) * float(radii)
-print(f"The area of the circle is: {area}")
+# radii = input("Enter the radius: ")
+# area = math.pi * float(radii) * float(radii)
+# print(f"The area of the circle is: {area:.2f}")
+
+
+
+#Using data structures )(List) to store information about a person
+Emma_Data = ["Emmanuel", "CGC", 20, "Computer Science"]
+print(f"Before Change {Emma_Data}") 
+
+Emma_Data.append(99)
+print(f"After Change {Emma_Data}")
+
+#using data structures (Dictionary) to store information about a person
+Emma_Data_Dict = {"first_Name": "Emmanuel", "Second_Name": "Simba", "Age": "21"}
+print(f"First name = {Emma_Data_Dict['first_Name']  }")
+print(Emma_Data_Dict.get("Age"))
