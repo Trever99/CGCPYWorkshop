@@ -28,10 +28,14 @@ for i in range(size -1,-1,-1   ):
       
 #While Loops
 student = True
-
-while student True:
+year = 0
+while student:
     print("Go to class")
-    student = False
+    year +=1
+    
+    if year ==3:
+      student = False  
+      print("You have graduated!")
         
         
         
